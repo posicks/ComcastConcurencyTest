@@ -27,7 +27,7 @@ public class Main
     public static void main(String[] args)
     {
         ExecutionScheduler scheduler = new ExecutionSchedulerImpl();
-        for (int index = 0; index <= NUMBER_OF_THREADS; index++)
+        for (int index = 0; index < NUMBER_OF_THREADS; index++)
         {
             scheduler.submit(() ->
             {
